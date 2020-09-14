@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="19c67eb80779431cbbac8b991e33f5f5" Name="Diagram1" DisplayType="true">
+        <EntityTypeShape EntityType="U05I3YModel.address" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="U05I3YModel.appointment" Width="1.5" PointX="9.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="U05I3YModel.city" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="U05I3YModel.country" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="U05I3YModel.customer" Width="1.5" PointX="7.5" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="U05I3YModel.user" Width="1.5" PointX="12" PointY="2" IsExpanded="true" />
+        <AssociationConnector Association="U05I3YModel.address_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="U05I3YModel.customer_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="U05I3YModel.appointment_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="U05I3YModel.appointment_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="U05I3YModel.city_ibfk_1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
